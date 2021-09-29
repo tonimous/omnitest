@@ -123,6 +123,34 @@
 /* *************************  */
 
 /* *****************************
+     featured section styling  
+ ******************************* */
+.section-featured {
+  margin: 4.8rem 8rem;
+  padding: 3.2rem 0 2.4rem 0;
+  border-bottom: 2px solid #fcefe3;
+}
+.heading-featured-in {
+  color: #3b444b;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+.logo {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: space-around;
+}
+.logo img {
+  height: 2.4rem;
+  filter: brightness(0);
+  opacity: 0.75;
+}
+
+/* *****************************
      how section styling  
  ******************************* */
 .section-how {
@@ -148,7 +176,7 @@
 .step-number {
   font-size: 8rem;
   font-weight: 600;
-  color: #8c7f74;
+  color: #f9dfc8;
   margin-bottom: 1.2rem;
   margin-top: 0;
 }
@@ -159,4 +187,89 @@
 .step-description {
   font-size: 1.8rem;
   line-height: 1.5;
+}
+
+/* *****************************
+     featured section styling  
+ ******************************* */
+
+.section-meals {
+  padding: 8rem 0;
+  background-color: #fcefe3;
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+.tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  color: #3b444b;
+  background-color: #22e67e;
+  border-radius: 1rem;
+}
+.tag-vegetarian {
+  background-color: #22e67e;
+}
+.tag-vegan {
+  background-color: #34ff93;
+}
+.tag-paleo {
+  background-color: #e6d922;
+}
+.meals {
+  border-radius: 1rem;
+  box-shadow: 0 0 3.2rem 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.meals:hover,
+.meals:active {
+  transform: translateY(-0.3rem) scale(1.01);
+  box-shadow: 0 0 4.8rem 0 rgba(0, 0, 0, 0.22);
+}
+.meal-content {
+  padding: 3.2rem;
+  background-color: #fff;
+}
+.meal-title {
+  font-size: 1.8rem;
+  color: #3b444b;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.meal-attribute {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.meal-img {
+  width: 100%;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.list-item {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+/* fontawesome icons  */
+.fas {
+  font-size: 1.8rem;
+  color: #e67e22;
 }
