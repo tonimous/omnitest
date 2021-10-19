@@ -335,7 +335,7 @@
 .gallery-img {
   display: block;
   width: 100%;
-  transition: all 0.2s;
+  transition: all 0.8s;
 }
 .gallery-img:hover {
   transform: scale(1.1);
@@ -436,6 +436,29 @@
   font-size: 1.4rem;
   line-height: 1.5;
 }
+
+/* *****************************
+     CTA section styling  
+ ******************************* */
+
+.section-cta {
+  padding: 8rem 0;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 0 3.2rem 0 rgb(0 0 0 / 30%);
+  height: 40rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right bottom, #c96e1e, #e67e22);
+}
+.cta-img-box {
+  background-image: linear-gradient(to right bottom, #c96e1e25, #e67d2225),
+    url("../content/img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* fontawesome icons  */
 .fas {
   font-size: 1.8rem;
