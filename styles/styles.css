@@ -505,8 +505,54 @@
  ******************************* */
 .footer {
   margin-top: 2.4rem;
-  margin-bottom: 3.2rem;
   padding: 8rem 0;
+  background-color: #f1f1f1;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.footer-social-links {
+  display: flex;
+  gap: 1.6rem;
+}
+.copyright {
+  margin-top: auto;
+  color: #3b444b;
+}
+.contacts {
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #777777;
+}
+.address {
+  margin-bottom: 2.4rem;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #777777;
+  transition: all 0.2s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #3b444b;
 }
 
 /* fontawesome icons  */
